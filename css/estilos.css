@@ -1,0 +1,248 @@
+@font-face {
+  font font-family: "casual";
+  src: url("../Fuentes/MISTRAL.ttf") format('TrueType');
+  }
+
+@font-face {
+  font font-family: "FUENTEGRIE";
+  src: url("../Fuentes/sylfaen.ttf") format('TrueType');
+  font-style: normal; font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');medi
+
+
+body {
+background-color: #D5FD9A;
+font-size: 16px;
+}
+#titulo {text-decoration: underline; font-family: "MISTRAL";
+font-weight: bold;
+color: #FF0000;
+display: flex;
+justify-content: center;
+ font-size: 2rem;}
+h2 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;}
+h3 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;}
+h4 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;}
+h5 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;}
+h6 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;}
+h7 {text-decoration: underline;
+  font-family: "Macondo",cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;;}
+
+
+.parrafo1 {color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+}
+.Ingredientes {
+  color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;
+}
+
+.Ingredientessalsa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;}
+.Ingredientessalsa {
+  color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;
+}
+.pasoapaso {
+  color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;
+}
+.pasosalsa {
+  color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;
+}
+.pasofinal {
+  color: #943126;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sylfaen;
+}
+
+
+.fotodescarga {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+
+.wasa{
+  position: fixed;
+  width: 70px;
+  top: 80%;
+  right: 2%;
+
+}
+
+
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 38vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro {
+width: 100%;
+height: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.foto {
+  width: 20%;
+  height: 60%;
+  display: block; margin: 0px auto;
+
+}
+
+.columnas {
+
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width: 100vw;
+  }
+
+section { background-color:#F7F57E;
+width: 88%;
+
+
+}
+
+aside { background-color: #F7F57E;
+width: 10%;
+
+
+}
+footer {
+  background-color: #F7A17E;
+  background-image: url(../Imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+
+.mapayt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+
+.redessociales {
+  background-color:#F7F57E;
+ display: flex;
+ justify-content: flex-start;
+}
+
+
+nav { background-color: green;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.pasofinal :hover {color: black;}
+.pasoapaso :hover {background-size: 30%;
+color: blue;
+transform: scale(1.2);}
+
+.pasosalsa:hover {
+  background-color: red;
+}
+
+.link:hover {color: pink;
+background-color: black;}
+
+.link2:hover {color: pink;
+background-color: black;}
+
+.foto:hover {
+transform: scale(1.2);
+}
+
+.fotodescarga:hover {
+  color: #FA0101;
+  background-color: black;
+  }
+
+
+
+@media(max-width: 500px) {
+  h2{
+    color: red;
+  }
+}
+@media(max-width: 500px) {
+   header{
+     background-color: #F7F57E;
+   }
+ }
+@media (max-width: 500px) {
+  #titulo {
+    color: black;
+  }
+
+}
+
+@media(max-width: 500px) {
+     .foto{ display: none;
+     }
+    }
+
+@media (min-width:500px) {
+  .isla{display: none;
+  }
+
+}
